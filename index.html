@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <div class="card main-card br-1">
+        <div class="card main-inside-card p-1 br-1">
+          <div class="img-container">
+            <img src="./images/image-jeremy.png" alt="image" />
+          </div>
+          <div class="p-name-sp">
+            <span class="subtitle">Report for</span>
+            <span class="name title">Jeremy Robson</span>
+          </div>
+        </div>
+        <div class="switcher p-1">
+          <a id="daily-btn">Daily</a>
+          <a id="weekly-btn">Weekly</a>
+          <a id="monthly-btn">Monthly</a>
+        </div>
+      </div>
+      <div class="card card-work bg-img-defaults br-1" id="word-card">
+        <article class="inside-card bri-1">
+          <div class="data-card-header p-1">
+            <h6>Work</h6>
+            <img
+              class="ellipsis"
+              src="./images/icon-ellipsis.svg"
+              alt="menu-symbol"
+            />
+          </div>
+          <div class="card-text px-1">
+            <p class="time">32hrs</p>
+            <p class="last-time">
+              Last Week - <span class="last-time-hrs"></span>
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="card card-play bg-img-defaults br-1" id="play-card">
+        <article class="inside-card bri-1">
+          <div class="data-card-header p-1">
+            <h6>Play</h6>
+            <img
+              class="ellipsis"
+              src="./images/icon-ellipsis.svg"
+              alt="menu-symbol"
+            />
+          </div>
+          <div class="card-text px-1">
+            <p class="time">32hrs</p>
+            <p class="last-time">
+              Last Week - <span class="last-time-hrs"></span>
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="card card-study bg-img-defaults br-1" id="study-card">
+        <article class="inside-card bri-1">
+          <div class="data-card-header p-1">
+            <h6>Study</h6>
+            <img
+              class="ellipsis"
+              src="./images/icon-ellipsis.svg"
+              alt="menu-symbol"
+            />
+          </div>
+          <div class="card-text px-1">
+            <p class="time">32hrs</p>
+            <p class="last-time">
+              Last Week - <span class="last-time-hrs"></span>
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="card card-ex bg-img-defaults br-1" id="ex-card">
+        <article class="inside-card bri-1">
+          <div class="data-card-header p-1">
+            <h6>Exercise</h6>
+            <img
+              class="ellipsis"
+              src="./images/icon-ellipsis.svg"
+              alt="menu-symbol"
+            />
+          </div>
+          <div class="card-text px-1">
+            <p class="time">32hrs</p>
+            <p class="last-time">
+              Last Week - <span class="last-time-hrs"></span>
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="card card-social bg-img-defaults br-1" id="social-card">
+        <article class="inside-card bri-1">
+          <div class="data-card-header p-1">
+            <h6>Social</h6>
+            <img
+              class="ellipsis"
+              src="./images/icon-ellipsis.svg"
+              alt="menu-symbol"
+            />
+          </div>
+          <div class="card-text px-1">
+            <p class="time">32hrs</p>
+            <p class="last-time">
+              Last Week - <span class="last-time-hrs"></span>
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="card card-sc bg-img-defaults br-1" id="sc-card">
+        <article class="inside-card bri-1">
+          <div class="data-card-header p-1">
+            <h6>Self Care</h6>
+            <img
+              class="ellipsis"
+              src="./images/icon-ellipsis.svg"
+              alt="menu-symbol"
+            />
+          </div>
+          <div class="card-text px-1">
+            <p class="time">32hrs</p>
+            <p class="last-time">
+              Last Week - <span class="last-time-hrs"></span>
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
